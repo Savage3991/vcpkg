@@ -92,6 +92,7 @@ vcpkg_cmake_configure(
         ${OPTIONS}
         -DBUILD_TESTING=OFF
         -DENABLE_CURL_MANUAL=OFF
+        -DENABLE_THREADED_RESOLVER=OFF
         -DIMPORT_LIB_SUFFIX=   # empty
         -DSHARE_LIB_OBJECT=OFF
         -DCURL_USE_CMAKECONFIG=ON
